@@ -12,4 +12,13 @@
   ![AVR studio 4 logo](/avr_studio4.png)
   
 ## GPIO
-   * GPIO which is General Purpose Input & Output is digital signla pin of intergrated circuit or electric circuit board that 
+   * GPIO which is General Purpose Input & Output is digital signal pin of intergrated circuit or electric circuit board. GPIO has three I/O registers(DDRx, PORTx, PINx) and can choose input and output freely.  
+   
+   Register | Work  
+   --------- | --------  
+   DDRx | set input of output (1: output, 0: input)  
+   PORTx | when output, set out voltage (1: voltage, 0: GND)  
+   PINx | when input, it changes register from external voltage  
+
+## Interuppt
+   * When we need to deal with exception, Interrupt 
