@@ -23,4 +23,5 @@
    PINx | when input, it changes register from external voltage  
 
 ## Interrupt
-   * When we need to deal with exception, Interrupt makes the CPU notified. if a particular event occur during the CPU's operation, it immediately stop its running and tackle the event.  
+   * When we need to deal with exception, Interrupt makes the CPU notified.  
+   If a particular event occurs during the CPU's operation, it immediately stops its running and tackle the event.  
