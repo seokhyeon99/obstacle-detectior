@@ -1,7 +1,9 @@
 # obstacle-detector
     * it is the program that can make car to avoid obstacles.
     * car has two sensors on the forward-left and forward-right.
-    * if they get pressed, car goes backward and changes direction.
+    * if they get pressed, car goes backward and changes direction.  
+   ![obstacle detection car](/detection_car.jpg)
+
 ## AVR studio 4
   * 'AVR studio' is an IDE(Intergrated Development Environment) provided free of charge by ATMEL, which develops and produces AVR micro controller.
      * Assembler: execution code generation program that generates executable files by assembling code written in assembly language
@@ -20,5 +22,5 @@
    PORTx | when output, set out voltage (1: voltage, 0: GND)  
    PINx | when input, it changes register from external voltage  
 
-## Interuppt
-   * When we need to deal with exception, Interrupt 
+## Interrupt
+   * When we need to deal with exception, Interrupt makes the CPU notified. if a particular event occur during the CPU's operation, it immediately stop its running and tackle the event.  
